@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Common Pixel';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Common Pixel'), url('https://fonts.cdnfonts.com/s/7553/COMMP___.woff') format('woff');
+}
+
+
+body {
+    background: #049DD9;
+    text-align: center;
+    margin: 0;
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: 'Common Pixel';
+    color: yellow;
+    font-size: 250px;
+    margin: 0;
+    
+}
+
+.menu {
+    font-size: 30px;
+    color: white;
+    height: auto;
+    margin: 0 10px;
+    font-family: 'Common Pixel';
+    
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+}
