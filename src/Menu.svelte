@@ -15,10 +15,6 @@
 	Jogar
 </div>
 
-<div class='menu' on:click={() => trocarEstadoDoJogo('como-jogar')}>
-	Como jogar
-</div>
-
 <div class='menu' on:click={() => trocarEstadoDoJogo('ajuda')}>
 	Ajuda
 </div>
