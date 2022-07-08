@@ -5,8 +5,9 @@
 <script>
 	import { estado } from './Estado.js'
 	import { trocarEstadoDoJogo } from './Estado.js'
+  import VoltarMenu from './VoltarMenu.svelte'
 </script>
-
+<VoltarMenu/>
 <h1>Dúvidas sobre o jogo</h1>
 
 <p>NÃO SABE COMO FUNCIONA O JOGO?</p>
