@@ -7,5 +7,5 @@
 </script>
 
 <div class='menu' on:click={() => trocarEstadoDoJogo('menu')}>
-	<img src="./public/seta.png" title="Voltar ao menu">
+	<img src="./public/images/seta.png" title="Voltar ao menu">
 </div>

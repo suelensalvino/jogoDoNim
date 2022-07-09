@@ -10,7 +10,7 @@
 <VoltarMenu/>
 <h1>Dúvidas sobre o jogo</h1>
 
-<p>NÃO SABE COMO FUNCIONA O JOGO?</p>
+<p class="destaque">NÃO SABE COMO FUNCIONA O JOGO?</p>
 <p>O jogo NIM foi pensado para dois jogadores que podem ser duas pessoas ou uma pessoa e uma máquina.
   Cada jogador realiza jogadas alternadas. Um movimento consiste em retirar algumas peças de uma única coluna; 
   cabe a cada jogador decidir o número de peças a serem  removidas.
@@ -19,7 +19,7 @@
 </p>
 
 <h1>Problemas técnicos</h1>
-<p>PROBLEMAS DE CONEXÃO, PROBLEMAS COM O SERVIDOR, JOGO TRAVANDO, ETC.</p>
+<p class="destaque">PROBLEMAS DE CONEXÃO, PROBLEMAS COM O SERVIDOR, JOGO TRAVANDO, ETC.</p>
 <p>Algumas vezes o jogo pode ficar travado em uma tela. 
   Isso geralmente está ligado a uma necessidade de atualizar as informações do jogo e por isso acaba ocorrendo esse problema.
   Para solucioná-lo, verifique sua conexão com a internet e/ou atualize a página apertando a tecla F5.
