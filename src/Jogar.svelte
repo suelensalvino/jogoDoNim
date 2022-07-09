@@ -37,7 +37,7 @@
 	
   }
 	
-
+let link='https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png'
 </script>
 
 <h1>Jogo</h1>
@@ -62,28 +62,28 @@ button {
 					
 				
 					</button>
-				{#each tabela as tabela,i}{tabela}<img src=https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png alt='yes' width=10 heigth=10>{/each} 
+				{#each tabela as tabela,i}{tabela}<img src={link} alt='yes' width=10 heigth=10>{/each} 
 				</td>
 		</tr>
 	
 	<tr>
 			
 				<td><button on:click={() => remover1(tabela1)}></button>
-				{#each tabela1 as tabela1,i}{tabela1}<img src=https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png alt='yes' width=10 heigth=10>{/each} 
+				{#each tabela1 as tabela1,i}{tabela1}<img src={link} alt='yes' width=10 heigth=10>{/each} 
 				</td>
 		</tr>
 	
 	<tr>
 			
 				<td><button on:click={() => remover2(tabela2)}></button>
-				{#each tabela2 as tabela2,i}{tabela2}<img src=https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png alt='yes' width=10 heigth=10>{/each} 
+				{#each tabela2 as tabela2,i}{tabela2}<img src={link} alt='yes' width=10 heigth=10>{/each} 
 				</td> 
 		</tr> 
 	
 	<tr>
 			
 				<td><button on:click={() => remover3(tabela3)}></button> 
-					{#each tabela3 as tabela3,i}{tabela3}<img src=https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png alt='yes' width=10 heigth=10>{/each} 
+					{#each tabela3 as tabela3,i}{tabela3}<img src={link} alt='yes' width=10 heigth=10>{/each} 
 				</td> 
 		</tr>
 	
