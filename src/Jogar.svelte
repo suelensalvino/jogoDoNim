@@ -1,3 +1,6 @@
+<svelte:head>
+	<link rel="stylesheet" href="/style/jogar.css">
+</svelte:head>
 <script>
 	
 
@@ -37,53 +40,36 @@
 	
   }
 	
-let link='https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png'
+let link= '/public/images/moeda.png'
 </script>
 
-<h1>Jogo</h1>
-<style>
-button {
-		color: #000;
-		background-color: #BB99FF;
-		padding: .75em 1.5em;
-		border: 2px solid black;
-		border-radius: .25em;
-		box-shadow: -.25em .25em 0 #000;
-		cursor: pointer;
-	}
-	
-	
-</style>
 <table>
 	
 		<tr>
 			
-				<td> <button on:click={() => remover(tabela) } >
-					
-				
-					</button>
-				{#each tabela as tabela,i}{tabela}<img src={link} alt='yes' width=10 heigth=10>{/each} 
+				<td on:click={() => remover(tabela)}>
+				{#each tabela as tabela,i}{tabela}<img src={link} alt='yes'>{/each} 
 				</td>
 		</tr>
 	
 	<tr>
 			
-				<td><button on:click={() => remover1(tabela1)}></button>
-				{#each tabela1 as tabela1,i}{tabela1}<img src={link} alt='yes' width=10 heigth=10>{/each} 
+				<td on:click={() => remover1(tabela1)}>
+				{#each tabela1 as tabela1,i}{tabela1}<img src={link} alt='yes'>{/each} 
 				</td>
 		</tr>
 	
 	<tr>
 			
-				<td><button on:click={() => remover2(tabela2)}></button>
-				{#each tabela2 as tabela2,i}{tabela2}<img src={link} alt='yes' width=10 heigth=10>{/each} 
+				<td on:click={() => remover2(tabela2)}>
+				{#each tabela2 as tabela2,i}{tabela2}<img src={link} alt='yes'>{/each} 
 				</td> 
 		</tr> 
 	
 	<tr>
 			
-				<td><button on:click={() => remover3(tabela3)}></button> 
-					{#each tabela3 as tabela3,i}{tabela3}<img src={link} alt='yes' width=10 heigth=10>{/each} 
+				<td on:click={() => remover3(tabela3)}> 
+					{#each tabela3 as tabela3,i}{tabela3}<img src={link} alt='yes'>{/each} 
 				</td> 
 		</tr>
 	
