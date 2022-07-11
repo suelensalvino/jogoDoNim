@@ -5,9 +5,9 @@
 	
 	
 	let tabela= ['','','',''];
-	let tabela1= ['','',''];
+	let tabela1= ['','','']; 
 	let tabela2= ['',''];
-	let tabela3= [''];
+	let tabela3= ['']; 
 	var jogador1='Player 1';
 	var jogador2='Player 2';
 	var contador=0;
@@ -23,9 +23,13 @@
 
 	
 	function parada(contador){
-		if (contador==10){
+		if (contador==9){//vencedor
 			 return 'Parabéns!!!Você ganhou'
-		}else{
+			 
+		}else if(contador==10){//ultima pessoa a jogar
+			return'talvez numa próxima vez'
+		}
+		else{//jogo em si
 			return 'Bom jogo' 
 		}
 	}
@@ -84,10 +88,23 @@
 			contador ++
 		}
 	}
+	
+	
+	function jogardnv(){
+		let tabela= ['','','',''];
+	let tabela1= ['','',''];
+	let tabela2= ['',''];
+	let tabela3= [''];
+		var jogador1='Player 1';
+	var jogador2='Player 2';
+	var contador=0;
+	
+	var jogador=jogador1
+	}
 
 	
 	
-let link= '/public/images/moeda.png'
+let link= '/public/images/moeda.png' 
 </script>
 
 
@@ -147,4 +164,5 @@ let link= '/public/images/moeda.png'
 	<br>
 	<button on:click={()=>botaojogador1()}>Jogador 1</button>
 		<button on:click={()=>botaojogador2()}>Jogador 2</button>
+
 	</body>
