@@ -7,7 +7,7 @@
 	import { trocarEstadoDoJogo } from './Estado.js'
     import VoltarMenu from './VoltarMenu.svelte'
 </script>
-<VoltarMenu/>
+
 <h1>SOBRE</h1>
 <p>
     Essa versão do jogo Nim foi desenvolvida pelos estudantes do 1º período do curso de Sistemas para Internet, do IFPE Campus Igarassu, 
@@ -53,3 +53,9 @@
         <img class="icone" src="./public/images/linkedin.png" alt="linkedin">
     </a>
 </p>
+<br>
+<br>
+<br>
+<VoltarMenu/>
+<br>
+<br>

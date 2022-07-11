@@ -7,7 +7,7 @@
 	import { trocarEstadoDoJogo } from './Estado.js'
   import VoltarMenu from './VoltarMenu.svelte'
 </script>
-<VoltarMenu/>
+
 <h1>Dúvidas sobre o jogo</h1>
 
 <p class="destaque">NÃO SABE COMO FUNCIONA O JOGO?</p>
@@ -18,13 +18,12 @@
   O jogo acaba quando não houver mais peças disponíveis e o jogador que fez a última jogada, vence.
 </p>
 
-<h1>Problemas técnicos</h1>
-<p class="destaque">PROBLEMAS DE CONEXÃO, PROBLEMAS COM O SERVIDOR, JOGO TRAVANDO, ETC.</p>
-<p>Algumas vezes o jogo pode ficar travado em uma tela. 
-  Isso geralmente está ligado a uma necessidade de atualizar as informações do jogo e por isso acaba ocorrendo esse problema.
-  Para solucioná-lo, verifique sua conexão com a internet e/ou atualize a página apertando a tecla F5.
-</p>
-
 <h1>Suporte</h1>
 <p>Se você precisa de ajuda, seja com problemas técnicos, dificuldades para jogar e etc, por favor, fale com o suporte através do e-mail:</p>
 <p>suporte-jogonim@gmail.com</p>
+<br>
+<br>
+<br>
+<VoltarMenu/>
+<br>
+<br>

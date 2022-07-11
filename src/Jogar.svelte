@@ -2,6 +2,8 @@
 	<link rel="stylesheet" href="/style/jogar.css">
 </svelte:head>
 <script>
+
+import VoltarMenu from "./VoltarMenu.svelte";
 	
 	
 	let tabela= ['','','',''];
@@ -31,7 +33,7 @@
 			else if(jogador=jogador2){jogador=jogador1;return'Talvez numa próxima vez'}//mostra na caixa do textoessa msg com o jogador 1(o que foi o ultimo a clicar)
 	
 		}else if(contador==0){
-			return 'Bom jogo!'
+			return 'START!'
 		}
 		else{//jogo em si
 			return 'Sua Vez.' 
@@ -109,10 +111,13 @@ let link= '/public/images/moeda.png'
 	
 
 
-<h1>
-{jogador}:
-	{parada(contador)}
+	<h1 class="start">
+		{parada(contador)}
 	</h1>
+	<h1 class="player">
+		{jogador}
+	</h1>
+
 
 
 
@@ -152,10 +157,13 @@ let link= '/public/images/moeda.png'
 	
 </table>
 	
-	<br>
-	<br>
-	<br>
-	<button on:click={()=>botaojogador1()}>Jogador 1</button>
-		<button on:click={()=>botaojogador2()}>Jogador 2</button>
+<br/>
+<br/>
+<br/>
+<button on:click={() => botaojogador1()}>Jogador 1</button>
+<button on:click={() => botaojogador2()}>Jogador 2</button>
+<br>
+<br>
+<VoltarMenu/>
 
 	</body>
