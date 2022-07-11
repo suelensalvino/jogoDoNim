@@ -24,10 +24,10 @@
 <p class="devs">
     Davi Luna
     <br>
-    <a href="https://github.com/davifurao">
+    <a target="_blank" href="https://github.com/davifurao">
     <img class="icone" src="./public/images/github.png" alt="github">
     </a>
-    <a href="">
+    <a target="_blank" href="https://www.linkedin.com/in/davi-luna-b2a452217/">
         <img class="icone" src="./public/images/linkedin.png" alt="linkedin">
     </a>
 </p>
@@ -35,10 +35,10 @@
 <p class="devs">
     Liliane Alves
     <br>
-    <a href="https://github.com/LiliAlves">
+    <a target="_blank" href="https://github.com/LiliAlves">
     <img class="icone" src="./public/images/github.png" alt="github">
     </a>
-    <a href="https://www.linkedin.com/in/liliane-alves-219218100/">
+    <a target="_blank" href="https://www.linkedin.com/in/liliane-alves-219218100/">
         <img class="icone" src="./public/images/linkedin.png" alt="linkedin">
     </a>
 </p>
@@ -46,10 +46,10 @@
 <p class="devs">
     Suelen Salvino
     <br>
-    <a href="https://github.com/suelensalvino">
+    <a target="_blank" href="https://github.com/suelensalvino">
     <img class="icone" src="./public/images/github.png" alt="github">
     </a>
-    <a href="https://www.linkedin.com/in/suelensalvino/">
+    <a target="_blank" href="https://www.linkedin.com/in/suelensalvino/">
         <img class="icone" src="./public/images/linkedin.png" alt="linkedin">
     </a>
 </p>
