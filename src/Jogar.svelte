@@ -25,10 +25,10 @@ import VoltarMenu from "./VoltarMenu.svelte";
 
 	
 	function parada(contador){
-		if (contador==9){//vencedor
+		if (contador==10){//vencedor
 			 return 'Parabéns!!!Você ganhou!!'
 			 
-		}else if(contador==10){//ultima pessoa a jogar
+		}else if(contador==9){//ultima pessoa a jogar
 			if(jogador=jogador1){ jogador=jogador2; return'Talvez numa proxima vez...'}//mostra na caixa do textoessa msg com o jogador 2(o que foi o ultimo a clicar)
 			else if(jogador=jogador2){jogador=jogador1;return'Talvez numa próxima vez'}//mostra na caixa do textoessa msg com o jogador 1(o que foi o ultimo a clicar)
 	
