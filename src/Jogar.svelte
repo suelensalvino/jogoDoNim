@@ -8,16 +8,25 @@
 	let tabela1= ['','',''];
 	let tabela2= ['',''];
 	let tabela3= [''];
-	
+	var jogador1='Player 1';
+	var jogador2='Player 2';
 	var contador=0;
 	
+	var jogador=jogador1
+	
+	function botaojogador2(){
+		return jogador=jogador2
+	}
+	function botaojogador1(){
+		return jogador=jogador1
+	}
 
 	
 	function parada(contador){
 		if (contador==10){
 			 return 'Parabéns!!!Você ganhou'
 		}else{
-			return 'Bom jogo'
+			return 'Bom jogo' 
 		}
 	}
 	
@@ -32,6 +41,7 @@
 	function t(tabela){
 		if(tabela=[]){
 			contador++
+			
 		}
 	}
 	
@@ -54,7 +64,7 @@
 		console.log(tabela2);
 		t2()
 	console.log(contador)
-		
+	
   }
 	function t2(tabela2){
 		if(tabela2=[]){
@@ -67,7 +77,7 @@
 		console.log(tabela3);
 	t3()
 		console.log(contador)
-	
+		
   }
 	function t3(tabela3){
 		if (tabela3=[]){
@@ -90,6 +100,7 @@ let link= '/public/images/moeda.png'
 
 
 <h1>
+{jogador}
 	{parada(contador)}
 	</h1>
 
@@ -130,5 +141,10 @@ let link= '/public/images/moeda.png'
 	
 	
 </table>
-
+	
+	<br>
+	<br>
+	<br>
+	<button on:click={()=>botaojogador1()}>Jogador 1</button>
+		<button on:click={()=>botaojogador2()}>Jogador 2</button>
 	</body>
