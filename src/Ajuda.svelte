@@ -11,12 +11,10 @@
 <h1>Dúvidas sobre o jogo</h1>
 
 <p class="destaque">NÃO SABE COMO FUNCIONA O JOGO?</p>
-<p>O jogo NIM foi pensado para dois jogadores que podem ser duas pessoas ou uma pessoa e uma máquina.
-  Cada jogador realiza jogadas alternadas. Um movimento consiste em retirar algumas peças de uma única coluna; 
-  cabe a cada jogador decidir o número de peças a serem  removidas.
-  Para eliminar as peças, é necessário deslocar o mouse sobre a quantidade desejada, clicando quando você quiser removê-las, a quantidade selecionada deve mudar de cor indicando que mais uma jogada foi executada. 
-  O jogo acaba quando não houver mais peças disponíveis e o jogador que fez a última jogada, vence.
-</p>
+<p>O jogo NIM foi desenvolvido para dois jogadores e cada um realiza jogadas alternadas. Cada jogada consiste em retirar de uma a três peças por linha ou coluna.
+    Cabe a cada jogador decidir o número de peças a serem removidas por jogada. Para eliminar peças, é necessário clicar com o mouse sobre a peça desejada quando o jogador quiser. 
+    A cada jogada realizada, o jogador deverá ser alternado clicando no botão que indica o número do jogador. O jogo acaba quando não houver mais peças disponíveis e o jogador que executou a última jogada, vence.
+    </p>
 
 <h1>Suporte</h1>
 <p>Se você precisa de ajuda, seja com problemas técnicos, dificuldades para jogar e etc, por favor, fale com o suporte através do e-mail:</p>
