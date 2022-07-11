@@ -12,7 +12,7 @@
 	var jogador2='Player 2';
 	var contador=0;
 	
-	var jogador=jogador1
+	var jogador=jogador1//aqui onde pode trocar na tela o nome do player antes de começar o jogo
 	
 	function botaojogador2(){
 		return jogador=jogador2
