@@ -24,13 +24,17 @@
 	
 	function parada(contador){
 		if (contador==9){//vencedor
-			 return 'Parabéns!!!Você ganhou'
+			 return 'Parabéns!!!Você ganhou!!'
 			 
 		}else if(contador==10){//ultima pessoa a jogar
-			return'talvez numa próxima vez'
+			if(jogador=jogador1){ jogador=jogador2; return'Talvez numa proxima vez...'}//mostra na caixa do textoessa msg com o jogador 2(o que foi o ultimo a clicar)
+			else if(jogador=jogador2){jogador=jogador1;return'Talvez numa próxima vez'}//mostra na caixa do textoessa msg com o jogador 1(o que foi o ultimo a clicar)
+	
+		}else if(contador==0){
+			return 'Bom jogo!'
 		}
 		else{//jogo em si
-			return 'Bom jogo' 
+			return 'Sua Vez.' 
 		}
 	}
 	
@@ -90,18 +94,7 @@
 	}
 	
 	
-	function jogardnv(){
-		let tabela= ['','','',''];
-	let tabela1= ['','',''];
-	let tabela2= ['',''];
-	let tabela3= [''];
-		var jogador1='Player 1';
-	var jogador2='Player 2';
-	var contador=0;
 	
-	var jogador=jogador1
-	}
-
 	
 	
 let link= '/public/images/moeda.png' 
@@ -117,7 +110,7 @@ let link= '/public/images/moeda.png'
 
 
 <h1>
-{jogador}
+{jogador}:
 	{parada(contador)}
 	</h1>
 
