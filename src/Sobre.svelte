@@ -10,8 +10,8 @@
 
 <h1>SOBRE</h1>
 <p>
-    Essa versão do jogo Nim foi desenvolvida pelos estudantes do 1º período do curso de Sistemas para Internet, do IFPE Campus Igarassu, 
-    na disciplina de Lógica de Programação sob a orientação do professor Allan Diego Lima. 
+    Essa versão do jogo Nim foi desenvolvida pelos estudantes do 1º período do curso de Sistemas para Internet, do IFPE Campus Igarassu, nas  disciplinas de Lógica de Programação 
+	sob a orientação do professor Allan Diego Lima e Fundamentos da Computação para Internet sob orientação de Leandro Marques Queiros. 
 </p>
 <br>
 <br>
